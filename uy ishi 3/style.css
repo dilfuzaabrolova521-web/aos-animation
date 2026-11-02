@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #ffffff;
+  color: #111111;
+  overflow-x: hidden;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px 50px;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 16px;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+.nav-links a:hover {
+  color: #ffffff;
+}
+.search-box {
+  background-color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 220px;
+  outline: none;
+}
+.hero-banner {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 60px 50px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+}
+.hero-content h1 {
+  font-size: 38px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.btn-green {
+  background-color: #76b900;
+  color: #000000;
+  padding: 10px 22px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+}
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.products-section {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.products-section h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.cards-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.product-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  width: 260px;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-image {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.card-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.card-title {
+  font-size: 13px;
+  color: #333333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.shop-link {
+  color: #0070c0;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+.learning-banner {
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 30px;
+  margin-top: 40px;
+  border-radius: 6px;
+}
+.banner-left img {
+  width: 350px;
+  border-radius: 4px;
+}
+.banner-right h3 {
+  font-size: 24px;
+  color: #76b900;
+  margin-bottom: 15px;
+}
+.banner-right p {
+  font-size: 14px;
+  color: #444444;
+  margin-bottom: 20px;
+  max-width: 450px;
+  line-height: 1.4;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border-top: 1px solid #e2e2e2;
+  font-size: 12px;
+  color: #666666;
+}
+.footer-logo {
+  font-weight: bold;
+  color: #76b900;
+  font-size: 18px;
+}
